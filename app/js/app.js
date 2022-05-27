@@ -13,19 +13,19 @@ document.addEventListener('DOMContentLoaded', () => {
 		prevArrow: '<div class="ArrowPrev"></div>',
 		nextArrow: '<div class="ArrowNext"></div>',
 	});
-	$('.information__stock').slick({
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		dots: false,
-		infinite: false,
-		arrows: false,
-		responsive: [
-			{
-			breakpoint: 1000,
-			settings: "unslick"
-			}
-			]
-	});
+	// $('.information__stock').slick({
+	// 	slidesToShow: 3,
+	// 	slidesToScroll: 1,
+	// 	dots: false,
+	// 	infinite: false,
+	// 	arrows: false,
+	// 	responsive: [
+	// 		{
+	// 		breakpoint: 1000,
+	// 		settings: "unslick"
+	// 		}
+	// 		]
+	// });
 	$('.about__video').slick({
 		slidesToShow: 3,
 		slidesToScroll: 1,
